@@ -1,0 +1,16 @@
+r=1;
+theta=0:pi/50:4*pi;
+%Trajectory in x-direction
+x=-r.*cos(0.1*theta);
+%Trajectory in y-direction
+y=r.*sin(0.theta);
+%Trajectory in z-direction
+z=0.1*theta;
+% figure(1);
+%plot3(x,y,z);
+% xlabel('x');
+% ylabel('y');
+% zlabel('z');
+% grid on
+% hold on;
+% plot(x, y, 'r', 'LineWidth', 3);
